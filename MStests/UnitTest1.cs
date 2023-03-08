@@ -14,6 +14,8 @@ namespace MStests
 
             Assert.AreEqual(4, calc.Add(2, 2));
             Assert.AreNotEqual(4, calc.Add(3, 2));
+
+            Assert.AreNotEqual(2137, calc.Add(21, 37));
         }
     }
 }
